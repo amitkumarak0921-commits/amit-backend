@@ -1,7 +1,7 @@
 {
   "name": "backend_development_2",
   "version": "1.0.0",
-  "description": "a backend by chai aur code ", 
+  "description": "a backend by chai aur code ",
   "keywords": [
     "javascript",
     "backend"
@@ -13,5 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "prettier": "^3.9.8"
   }
 }
