@@ -1,16 +1,17 @@
 {
   "name": "backend_development_2",
   "version": "1.0.0",
-  "description": "a backend by chai aur code ",
+  "description": "a backend by chai aur code ", 
   "keywords": [
     "javascript",
     "backend"
   ],
   "license": "ISC",
   "author": "amit kumar",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   }
 }
