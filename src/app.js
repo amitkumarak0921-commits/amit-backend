@@ -23,4 +23,9 @@ app.use(
   //for every request parser the cookie and put them on req.cookie
   app.use(cookieParser());
 
+  //ROUTES import
+  import userRouter from './routes/user.routes.js'
+
+  //routes declartion 
+  app.use("/api/v1/user", userRouter)
 export default app;  

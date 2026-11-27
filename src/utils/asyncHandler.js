@@ -4,3 +4,5 @@ const asyncHandler = ( requestHandler ) => {
      .catch(next);
   };
 };
+
+export default asyncHandler;
